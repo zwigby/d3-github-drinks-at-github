@@ -1,0 +1,24 @@
+{
+  "name": "d3-github-drinks-at-github",
+  "version": "0.0.0",
+  "description": "A visualization of drinks being consumed at d3 meetup at Github.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zwigby/d3-github-drinks-at-github.git"
+  },
+  "keywords": [
+    "drinks"
+  ],
+  "author": "Charlie Key <charlie@modulus.io>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "d7b024602cdcca6c191d59c6223c733e9c563c2b",
+  "dependencies": {
+    "express": "~3.4.2",
+    "express-hbs": "~0.3.0"
+  }
+}
