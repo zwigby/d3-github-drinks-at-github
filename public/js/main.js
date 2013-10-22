@@ -71,6 +71,9 @@ var arcs = svg.datum(drinks).selectAll("path")
     })
     .text(function(d, i) {
       return d.data.name;
+    })
+    .attr("fill", function(d, i) {
+      return colors[i];
     });
 
 // function change() {
